@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(Linux_Gateway-master)
+add_subdirectory(libcan)
+add_subdirectory(libled)
+add_subdirectory(analyis)
+add_subdirectory(src)

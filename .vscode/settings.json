@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "hello.h": "c",
+        "pthread.h": "c",
+        "data_global.h": "c",
+        "ledapp.h": "c",
+        "raw.h": "c",
+        "ethernet.h": "c",
+        "can.h": "c",
+        "fcntl.h": "c",
+        "string.h": "c",
+        "ioctl.h": "c",
+        "can_anayse.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
