@@ -3,6 +3,7 @@
 
 #define CAN_BUF_SIZE    200
 #define CAN_DATA_BUF_NUM    10
+#define DATA_ID_EMPTY   0XFFFFFFFF
 typedef struct 
 {
     uint32_t  addr;  /*记录当前BUF存在数据的源地址*/
