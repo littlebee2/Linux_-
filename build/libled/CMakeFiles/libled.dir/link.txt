@@ -1,2 +1,2 @@
-/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libledApp.a CMakeFiles/libled.dir/ledApp.c.o
-/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libledApp.a
+/usr/bin/ar qc libledApp.a  CMakeFiles/libled.dir/ledApp.c.o
+/usr/bin/ranlib libledApp.a

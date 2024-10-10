@@ -10,5 +10,6 @@ int main(void)
 	while(1)
 	{
 		can_handler();
+		msleep(50);
 	}
 }

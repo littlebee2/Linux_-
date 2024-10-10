@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libcan_anayse.dir/can_anayse.c.o"
-  "CMakeFiles/libcan_anayse.dir/can_anayse.c.o.d"
-  "liblibcan_anayse.a"
   "liblibcan_anayse.pdb"
+  "liblibcan_anayse.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libled.dir/ledApp.c.o"
-  "CMakeFiles/libled.dir/ledApp.c.o.d"
-  "libledApp.a"
   "libledApp.pdb"
+  "libledApp.a"
 )
 
 # Per-language clean rules from dependency scanning.

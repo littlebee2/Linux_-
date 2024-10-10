@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
-  "../bin/Linux_Gateway_master"
-  "../bin/Linux_Gateway_master.pdb"
   "CMakeFiles/Linux_Gateway_master.dir/main.c.o"
-  "CMakeFiles/Linux_Gateway_master.dir/main.c.o.d"
+  "../bin/Linux_Gateway_master.pdb"
+  "../bin/Linux_Gateway_master"
 )
 
 # Per-language clean rules from dependency scanning.

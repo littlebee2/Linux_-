@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libcan.dir/can.c.o"
-  "CMakeFiles/libcan.dir/can.c.o.d"
-  "libcan.a"
   "libcan.pdb"
+  "libcan.a"
 )
 
 # Per-language clean rules from dependency scanning.
