@@ -60,15 +60,15 @@ include libcan/CMakeFiles/libcan.dir/flags.make
 libcan/CMakeFiles/libcan.dir/can.c.o: libcan/CMakeFiles/libcan.dir/flags.make
 libcan/CMakeFiles/libcan.dir/can.c.o: ../libcan/can.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libcan/CMakeFiles/libcan.dir/can.c.o"
-	cd /home/danneil/items/app/linux网关/build/libcan && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libcan.dir/can.c.o   -c /home/danneil/items/app/linux网关/libcan/can.c
+	cd /home/danneil/items/app/linux网关/build/libcan && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libcan.dir/can.c.o   -c /home/danneil/items/app/linux网关/libcan/can.c
 
 libcan/CMakeFiles/libcan.dir/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libcan.dir/can.c.i"
-	cd /home/danneil/items/app/linux网关/build/libcan && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/libcan/can.c > CMakeFiles/libcan.dir/can.c.i
+	cd /home/danneil/items/app/linux网关/build/libcan && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/libcan/can.c > CMakeFiles/libcan.dir/can.c.i
 
 libcan/CMakeFiles/libcan.dir/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libcan.dir/can.c.s"
-	cd /home/danneil/items/app/linux网关/build/libcan && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/libcan/can.c -o CMakeFiles/libcan.dir/can.c.s
+	cd /home/danneil/items/app/linux网关/build/libcan && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/libcan/can.c -o CMakeFiles/libcan.dir/can.c.s
 
 libcan/CMakeFiles/libcan.dir/can.c.o.requires:
 

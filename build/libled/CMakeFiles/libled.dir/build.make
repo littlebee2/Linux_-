@@ -60,15 +60,15 @@ include libled/CMakeFiles/libled.dir/flags.make
 libled/CMakeFiles/libled.dir/ledApp.c.o: libled/CMakeFiles/libled.dir/flags.make
 libled/CMakeFiles/libled.dir/ledApp.c.o: ../libled/ledApp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libled/CMakeFiles/libled.dir/ledApp.c.o"
-	cd /home/danneil/items/app/linux网关/build/libled && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libled.dir/ledApp.c.o   -c /home/danneil/items/app/linux网关/libled/ledApp.c
+	cd /home/danneil/items/app/linux网关/build/libled && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libled.dir/ledApp.c.o   -c /home/danneil/items/app/linux网关/libled/ledApp.c
 
 libled/CMakeFiles/libled.dir/ledApp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libled.dir/ledApp.c.i"
-	cd /home/danneil/items/app/linux网关/build/libled && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/libled/ledApp.c > CMakeFiles/libled.dir/ledApp.c.i
+	cd /home/danneil/items/app/linux网关/build/libled && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/libled/ledApp.c > CMakeFiles/libled.dir/ledApp.c.i
 
 libled/CMakeFiles/libled.dir/ledApp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libled.dir/ledApp.c.s"
-	cd /home/danneil/items/app/linux网关/build/libled && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/libled/ledApp.c -o CMakeFiles/libled.dir/ledApp.c.s
+	cd /home/danneil/items/app/linux网关/build/libled && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/libled/ledApp.c -o CMakeFiles/libled.dir/ledApp.c.s
 
 libled/CMakeFiles/libled.dir/ledApp.c.o.requires:
 

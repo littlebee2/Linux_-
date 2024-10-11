@@ -12,3 +12,6 @@
 /home/danneil/items/app/linux网关/build/src/CMakeFiles/rebuild_cache.dir
 /home/danneil/items/app/linux网关/build/src/CMakeFiles/Linux_Gateway_master.dir
 /home/danneil/items/app/linux网关/build/src/CMakeFiles/edit_cache.dir
+/home/danneil/items/app/linux网关/build/libcrc/CMakeFiles/rebuild_cache.dir
+/home/danneil/items/app/linux网关/build/libcrc/CMakeFiles/libcrc.dir
+/home/danneil/items/app/linux网关/build/libcrc/CMakeFiles/edit_cache.dir

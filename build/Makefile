@@ -162,6 +162,19 @@ Linux_Gateway_master/fast:
 	$(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/build
 .PHONY : Linux_Gateway_master/fast
 
+#=============================================================================
+# Target rules for targets named libcrc
+
+# Build rule for target.
+libcrc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libcrc
+.PHONY : libcrc
+
+# fast build rule for target.
+libcrc/fast:
+	$(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/build
+.PHONY : libcrc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +187,7 @@ help:
 	@echo "... libled"
 	@echo "... libcan_anayse"
 	@echo "... Linux_Gateway_master"
+	@echo "... libcrc"
 .PHONY : help
 
 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danneil/items/app/linux网关/libcan/can.c
+can.h
+/home/danneil/items/app/linux网关/libcan/can.h
+
+/home/danneil/items/app/linux网关/libcan/can.h
+pthread.h
+-
+fcntl.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+sys/ioctl.h
+-
+sys/socket.h
+-
+net/if.h
+-
+signal.h
+-
+net/ethernet.h
+-
+linux/can.h
+-
+linux/can/raw.h
+-
+

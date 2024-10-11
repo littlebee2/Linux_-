@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 #include "can.h"
 #include "can_anayse.h"
 
@@ -10,6 +11,6 @@ int main(void)
 	while(1)
 	{
 		can_handler();
-		msleep(50);
+		//msleep(50);
 	}
 }

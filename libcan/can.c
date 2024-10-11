@@ -1,7 +1,6 @@
 #include "can.h"
 
 #define     CAN_ZERO    "can0"
-#define     debug_print     printf
 
 volatile can_buf_struct  can0_rx_buf;
 volatile can_buf_struct  can0_tx_buf;

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danneil/items/app/linux网关/libled/ledApp.c
+ledApp.h
+/home/danneil/items/app/linux网关/libled/ledApp.h
+pthread.h
+-
+fcntl.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+
+/home/danneil/items/app/linux网关/libled/ledApp.h
+

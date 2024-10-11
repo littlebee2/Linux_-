@@ -6,11 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/danneil/items/app/linux网关/analyis/can_anayse.c" "/home/danneil/items/app/linux网关/build/analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libcan"
+  "../libcrc"
   )
 
 # Targets to which this target links.

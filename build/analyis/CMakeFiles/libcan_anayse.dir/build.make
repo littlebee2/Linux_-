@@ -60,15 +60,15 @@ include analyis/CMakeFiles/libcan_anayse.dir/flags.make
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o: analyis/CMakeFiles/libcan_anayse.dir/flags.make
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o: ../analyis/can_anayse.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o"
-	cd /home/danneil/items/app/linux网关/build/analyis && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libcan_anayse.dir/can_anayse.c.o   -c /home/danneil/items/app/linux网关/analyis/can_anayse.c
+	cd /home/danneil/items/app/linux网关/build/analyis && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libcan_anayse.dir/can_anayse.c.o   -c /home/danneil/items/app/linux网关/analyis/can_anayse.c
 
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libcan_anayse.dir/can_anayse.c.i"
-	cd /home/danneil/items/app/linux网关/build/analyis && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/analyis/can_anayse.c > CMakeFiles/libcan_anayse.dir/can_anayse.c.i
+	cd /home/danneil/items/app/linux网关/build/analyis && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/analyis/can_anayse.c > CMakeFiles/libcan_anayse.dir/can_anayse.c.i
 
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libcan_anayse.dir/can_anayse.c.s"
-	cd /home/danneil/items/app/linux网关/build/analyis && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/analyis/can_anayse.c -o CMakeFiles/libcan_anayse.dir/can_anayse.c.s
+	cd /home/danneil/items/app/linux网关/build/analyis && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/analyis/can_anayse.c -o CMakeFiles/libcan_anayse.dir/can_anayse.c.s
 
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o.requires:
 

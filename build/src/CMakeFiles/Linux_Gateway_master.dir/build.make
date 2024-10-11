@@ -60,15 +60,15 @@ include src/CMakeFiles/Linux_Gateway_master.dir/flags.make
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.o: src/CMakeFiles/Linux_Gateway_master.dir/flags.make
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.o: ../src/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Linux_Gateway_master.dir/main.c.o"
-	cd /home/danneil/items/app/linux网关/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Linux_Gateway_master.dir/main.c.o   -c /home/danneil/items/app/linux网关/src/main.c
+	cd /home/danneil/items/app/linux网关/build/src && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Linux_Gateway_master.dir/main.c.o   -c /home/danneil/items/app/linux网关/src/main.c
 
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Linux_Gateway_master.dir/main.c.i"
-	cd /home/danneil/items/app/linux网关/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/src/main.c > CMakeFiles/Linux_Gateway_master.dir/main.c.i
+	cd /home/danneil/items/app/linux网关/build/src && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/danneil/items/app/linux网关/src/main.c > CMakeFiles/Linux_Gateway_master.dir/main.c.i
 
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_Gateway_master.dir/main.c.s"
-	cd /home/danneil/items/app/linux网关/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/src/main.c -o CMakeFiles/Linux_Gateway_master.dir/main.c.s
+	cd /home/danneil/items/app/linux网关/build/src && /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/danneil/items/app/linux网关/src/main.c -o CMakeFiles/Linux_Gateway_master.dir/main.c.s
 
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.o.requires:
 
@@ -93,6 +93,7 @@ bin/Linux_Gateway_master: src/CMakeFiles/Linux_Gateway_master.dir/build.make
 bin/Linux_Gateway_master: libcan/libcan.a
 bin/Linux_Gateway_master: libled/libledApp.a
 bin/Linux_Gateway_master: analyis/liblibcan_anayse.a
+bin/Linux_Gateway_master: libcrc/libcrc.a
 bin/Linux_Gateway_master: src/CMakeFiles/Linux_Gateway_master.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/Linux_Gateway_master"
 	cd /home/danneil/items/app/linux网关/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Linux_Gateway_master.dir/link.txt --verbose=$(VERBOSE)

@@ -14,7 +14,7 @@
 #include <linux/can.h>
 #include <linux/can/raw.h>
 
-
+#define     debug_print     printf
 #define CAN_FRAME_BUFFER_SIZE   1024 /*定义can缓存区大小*/
 #define    CANBITRATE   250000  /*设置CAN0波特速率250k*/
 /*定义缓冲区结构体*/
