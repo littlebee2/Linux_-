@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/danneil/items/app/linux网关/libcrc/crc.c
+/home/danneil/items/app/linux_gatework/libcrc/crc.c
 crc.h
-/home/danneil/items/app/linux网关/libcrc/crc.h
+/home/danneil/items/app/linux_gatework/libcrc/crc.h
 
-/home/danneil/items/app/linux网关/libcrc/crc.h
+/home/danneil/items/app/linux_gatework/libcrc/crc.h
 stdint.h
-/home/danneil/items/app/linux网关/libcrc/stdint.h
+/home/danneil/items/app/linux_gatework/libcrc/stdint.h
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danneil/items/app/linux网关
+CMAKE_SOURCE_DIR = /home/danneil/items/app/linux_gatework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danneil/items/app/linux网关/build
+CMAKE_BINARY_DIR = /home/danneil/items/app/linux_gatework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles /home/danneil/items/app/linux网关/build/libcrc/CMakeFiles/progress.marks
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles /home/danneil/items/app/linux_gatework/build/libcrc/CMakeFiles/progress.marks
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/clean
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libcrc/CMakeFiles/libcrc.dir/rule:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/CMakeFiles/libcrc.dir/rule
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcrc/CMakeFiles/libcrc.dir/rule
 .PHONY : libcrc/CMakeFiles/libcrc.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ libcrc: libcrc/CMakeFiles/libcrc.dir/rule
 
 # fast build rule for target.
 libcrc/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/build
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/build
 .PHONY : libcrc/fast
 
 crc.o: crc.c.o
@@ -131,7 +131,7 @@ crc.o: crc.c.o
 
 # target to build an object file
 crc.c.o:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.o
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.o
 .PHONY : crc.c.o
 
 crc.i: crc.c.i
@@ -140,7 +140,7 @@ crc.i: crc.c.i
 
 # target to preprocess a source file
 crc.c.i:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.i
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.i
 .PHONY : crc.c.i
 
 crc.s: crc.c.s
@@ -149,7 +149,7 @@ crc.s: crc.c.s
 
 # target to generate assembly for a file
 crc.c.s:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.s
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/crc.c.s
 .PHONY : crc.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

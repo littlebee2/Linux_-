@@ -1,12 +1,24 @@
 #include "can_anayse.h"
-#include "can.h"
 #include "crc.h"
+#include "can.h"
 
-static Can_Tpe s_can;
+Can_Tpe s_can;//static Can_Tpe s_can;
 
 static void Split_Date(void);
 static void Device_CMDProess(uint32_t id,uint8_t *dat);
 static void Can_DataCheck(Struct_CanDataBuf *buf);
+
+void can_init(void)
+{
+    uint8_t i;
+    int res;
+    for(i = 0; i < CAN_DATA_BUF_NUM; i++)
+    {
+        s_can.rxBuf[i].addr = DATA_ID_EMPTY;
+    }
+    res = can_rx_tx_init();
+}
+
 void can_handler(void)
 {
     uint8_t i;

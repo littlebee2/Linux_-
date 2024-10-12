@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+                    "name": "Linux_Gateway_master",
+                    "type": "cppdbg",
+                    "request": "launch",
+                    "program": "/home/danneil/items/app/linux_gatework/build/bin/Linux_Gateway_master",
+                    "args": [],
+                    "stopAtEntry": false,
+                    "cwd": "${workspaceFolder}",
+                    "environment": [],
+                    "externalConsole": false,
+                    "MIMode": "gdb",
+                    "miDebuggerPath": "/home/danneil/items/tools/gdb/bin/arm-linux-gnueabihf-gdb",
+                    "miDebuggerServerAddress": "192.168.10.50:2001",
+                    "setupCommands": [
+                        {
+                            "description": "为 gdb 启用整齐打印",
+                            "text": "-enable-pretty-printing",
+                            "ignoreFailures": true
+                        }
+                    ]
+                },
+
+    ]
+}   

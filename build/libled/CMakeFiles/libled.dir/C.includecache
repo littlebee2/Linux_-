@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/danneil/items/app/linux网关/libled/ledApp.c
+/home/danneil/items/app/linux_gatework/libled/ledApp.c
 ledApp.h
-/home/danneil/items/app/linux网关/libled/ledApp.h
+/home/danneil/items/app/linux_gatework/libled/ledApp.h
 pthread.h
 -
 fcntl.h
@@ -20,5 +20,5 @@ string.h
 unistd.h
 -
 
-/home/danneil/items/app/linux网关/libled/ledApp.h
+/home/danneil/items/app/linux_gatework/libled/ledApp.h
 

@@ -4,5 +4,5 @@
 analyis/CMakeFiles/libcan_anayse.dir/can_anayse.c.o
  ../libcan/can.h
  ../libcrc/crc.h
- /home/danneil/items/app/linux网关/analyis/can_anayse.c
- /home/danneil/items/app/linux网关/analyis/can_anayse.h
+ /home/danneil/items/app/linux_gatework/analyis/can_anayse.c
+ /home/danneil/items/app/linux_gatework/analyis/can_anayse.h

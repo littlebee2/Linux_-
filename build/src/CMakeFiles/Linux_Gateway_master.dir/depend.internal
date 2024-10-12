@@ -3,5 +3,4 @@
 
 src/CMakeFiles/Linux_Gateway_master.dir/main.c.o
  ../analyis/can_anayse.h
- ../libcan/can.h
- /home/danneil/items/app/linux网关/src/main.c
+ /home/danneil/items/app/linux_gatework/src/main.c

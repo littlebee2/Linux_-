@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/danneil/items/app/linux网关/libled/ledApp.c" "/home/danneil/items/app/linux网关/build/libled/CMakeFiles/libled.dir/ledApp.c.o"
+  "/home/danneil/items/app/linux_gatework/libled/ledApp.c" "/home/danneil/items/app/linux_gatework/build/libled/CMakeFiles/libled.dir/ledApp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

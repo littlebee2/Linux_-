@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/danneil/items/app/linux网关/libcan/can.c
+/home/danneil/items/app/linux_gatework/libcan/can.c
 can.h
-/home/danneil/items/app/linux网关/libcan/can.h
+/home/danneil/items/app/linux_gatework/libcan/can.h
 
-/home/danneil/items/app/linux网关/libcan/can.h
+/home/danneil/items/app/linux_gatework/libcan/can.h
 pthread.h
 -
 fcntl.h

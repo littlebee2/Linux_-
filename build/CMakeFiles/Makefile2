@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danneil/items/app/linux网关
+CMAKE_SOURCE_DIR = /home/danneil/items/app/linux_gatework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danneil/items/app/linux网关/build
+CMAKE_BINARY_DIR = /home/danneil/items/app/linux_gatework/build
 
 #=============================================================================
 # Directory level rules for directory libcan
@@ -84,7 +84,7 @@ libcan/preinstall:
 libcan/CMakeFiles/libcan.dir/all:
 	$(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/depend
 	$(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=3,4 "Built target libcan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux_gatework/build/CMakeFiles --progress-num=3,4 "Built target libcan"
 .PHONY : libcan/CMakeFiles/libcan.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: libcan/CMakeFiles/libcan.dir/all
 
 # Build rule for subdir invocation for target.
 libcan/CMakeFiles/libcan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libcan/CMakeFiles/libcan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : libcan/CMakeFiles/libcan.dir/rule
 
 # Convenience name for target.
@@ -139,7 +139,7 @@ libled/preinstall:
 libled/CMakeFiles/libled.dir/all:
 	$(MAKE) -f libled/CMakeFiles/libled.dir/build.make libled/CMakeFiles/libled.dir/depend
 	$(MAKE) -f libled/CMakeFiles/libled.dir/build.make libled/CMakeFiles/libled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=9,10 "Built target libled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux_gatework/build/CMakeFiles --progress-num=9,10 "Built target libled"
 .PHONY : libled/CMakeFiles/libled.dir/all
 
 # Include target in all.
@@ -149,9 +149,9 @@ all: libled/CMakeFiles/libled.dir/all
 
 # Build rule for subdir invocation for target.
 libled/CMakeFiles/libled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libled/CMakeFiles/libled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : libled/CMakeFiles/libled.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ analyis/preinstall:
 analyis/CMakeFiles/libcan_anayse.dir/all:
 	$(MAKE) -f analyis/CMakeFiles/libcan_anayse.dir/build.make analyis/CMakeFiles/libcan_anayse.dir/depend
 	$(MAKE) -f analyis/CMakeFiles/libcan_anayse.dir/build.make analyis/CMakeFiles/libcan_anayse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=5,6 "Built target libcan_anayse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux_gatework/build/CMakeFiles --progress-num=5,6 "Built target libcan_anayse"
 .PHONY : analyis/CMakeFiles/libcan_anayse.dir/all
 
 # Include target in all.
@@ -204,9 +204,9 @@ all: analyis/CMakeFiles/libcan_anayse.dir/all
 
 # Build rule for subdir invocation for target.
 analyis/CMakeFiles/libcan_anayse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 analyis/CMakeFiles/libcan_anayse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : analyis/CMakeFiles/libcan_anayse.dir/rule
 
 # Convenience name for target.
@@ -252,7 +252,7 @@ src/CMakeFiles/Linux_Gateway_master.dir/all: analyis/CMakeFiles/libcan_anayse.di
 src/CMakeFiles/Linux_Gateway_master.dir/all: libcrc/CMakeFiles/libcrc.dir/all
 	$(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/depend
 	$(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=1,2 "Built target Linux_Gateway_master"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux_gatework/build/CMakeFiles --progress-num=1,2 "Built target Linux_Gateway_master"
 .PHONY : src/CMakeFiles/Linux_Gateway_master.dir/all
 
 # Include target in all.
@@ -262,9 +262,9 @@ all: src/CMakeFiles/Linux_Gateway_master.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Linux_Gateway_master.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Linux_Gateway_master.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Linux_Gateway_master.dir/rule
 
 # Convenience name for target.
@@ -307,7 +307,7 @@ libcrc/preinstall:
 libcrc/CMakeFiles/libcrc.dir/all:
 	$(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/depend
 	$(MAKE) -f libcrc/CMakeFiles/libcrc.dir/build.make libcrc/CMakeFiles/libcrc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux网关/build/CMakeFiles --progress-num=7,8 "Built target libcrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danneil/items/app/linux_gatework/build/CMakeFiles --progress-num=7,8 "Built target libcrc"
 .PHONY : libcrc/CMakeFiles/libcrc.dir/all
 
 # Include target in all.
@@ -317,9 +317,9 @@ all: libcrc/CMakeFiles/libcrc.dir/all
 
 # Build rule for subdir invocation for target.
 libcrc/CMakeFiles/libcrc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 libcrc/CMakeFiles/libcrc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : libcrc/CMakeFiles/libcrc.dir/rule
 
 # Convenience name for target.

@@ -46,6 +46,7 @@ typedef struct
     Struct_CanDataBuf txBuf[CAN_DATA_BUF_NUM];
 }Can_Tpe;
 
+void can_init(void);
 void can_handler(void);
 
 #endif /*__CAN_ANAYSE_H__ */

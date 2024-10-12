@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danneil/items/app/linux网关
+CMAKE_SOURCE_DIR = /home/danneil/items/app/linux_gatework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danneil/items/app/linux网关/build
+CMAKE_BINARY_DIR = /home/danneil/items/app/linux_gatework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles /home/danneil/items/app/linux网关/build/libcan/CMakeFiles/progress.marks
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles /home/danneil/items/app/linux_gatework/build/libcan/CMakeFiles/progress.marks
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/clean
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libcan/CMakeFiles/libcan.dir/rule:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/CMakeFiles/libcan.dir/rule
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 libcan/CMakeFiles/libcan.dir/rule
 .PHONY : libcan/CMakeFiles/libcan.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ libcan: libcan/CMakeFiles/libcan.dir/rule
 
 # fast build rule for target.
 libcan/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/build
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/build
 .PHONY : libcan/fast
 
 can.o: can.c.o
@@ -131,7 +131,7 @@ can.o: can.c.o
 
 # target to build an object file
 can.c.o:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.o
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.o
 .PHONY : can.c.o
 
 can.i: can.c.i
@@ -140,7 +140,7 @@ can.i: can.c.i
 
 # target to preprocess a source file
 can.c.i:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.i
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.i
 .PHONY : can.c.i
 
 can.s: can.c.s
@@ -149,7 +149,7 @@ can.s: can.c.s
 
 # target to generate assembly for a file
 can.c.s:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.s
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f libcan/CMakeFiles/libcan.dir/build.make libcan/CMakeFiles/libcan.dir/can.c.s
 .PHONY : can.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

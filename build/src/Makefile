@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/danneil/items/app/linux网关
+CMAKE_SOURCE_DIR = /home/danneil/items/app/linux_gatework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/danneil/items/app/linux网关/build
+CMAKE_BINARY_DIR = /home/danneil/items/app/linux_gatework/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles /home/danneil/items/app/linux网关/build/src/CMakeFiles/progress.marks
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux网关/build/CMakeFiles 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles /home/danneil/items/app/linux_gatework/build/src/CMakeFiles/progress.marks
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danneil/items/app/linux_gatework/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Linux_Gateway_master.dir/rule:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Linux_Gateway_master.dir/rule
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Linux_Gateway_master.dir/rule
 .PHONY : src/CMakeFiles/Linux_Gateway_master.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Linux_Gateway_master: src/CMakeFiles/Linux_Gateway_master.dir/rule
 
 # fast build rule for target.
 Linux_Gateway_master/fast:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/build
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/build
 .PHONY : Linux_Gateway_master/fast
 
 main.o: main.c.o
@@ -131,7 +131,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.o
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -140,7 +140,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.i
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -149,7 +149,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/danneil/items/app/linux网关/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.s
+	cd /home/danneil/items/app/linux_gatework/build && $(MAKE) -f src/CMakeFiles/Linux_Gateway_master.dir/build.make src/CMakeFiles/Linux_Gateway_master.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/danneil/items/app/linux网关/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/danneil/items/app/linux_gatework/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

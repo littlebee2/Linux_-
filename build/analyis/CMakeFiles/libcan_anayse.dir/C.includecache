@@ -36,15 +36,15 @@ linux/can/raw.h
 stdint.h
 ../libcrc/stdint.h
 
-/home/danneil/items/app/linux网关/analyis/can_anayse.c
+/home/danneil/items/app/linux_gatework/analyis/can_anayse.c
 can_anayse.h
-/home/danneil/items/app/linux网关/analyis/can_anayse.h
-can.h
-/home/danneil/items/app/linux网关/analyis/can.h
+/home/danneil/items/app/linux_gatework/analyis/can_anayse.h
 crc.h
-/home/danneil/items/app/linux网关/analyis/crc.h
+/home/danneil/items/app/linux_gatework/analyis/crc.h
+can.h
+/home/danneil/items/app/linux_gatework/analyis/can.h
 
-/home/danneil/items/app/linux网关/analyis/can_anayse.h
+/home/danneil/items/app/linux_gatework/analyis/can_anayse.h
 stdint.h
-/home/danneil/items/app/linux网关/analyis/stdint.h
+/home/danneil/items/app/linux_gatework/analyis/stdint.h
 

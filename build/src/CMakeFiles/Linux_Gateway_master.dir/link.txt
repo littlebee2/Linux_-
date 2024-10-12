@@ -1,1 +1,1 @@
-/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    CMakeFiles/Linux_Gateway_master.dir/main.c.o  -o ../bin/Linux_Gateway_master ../libcan/libcan.a ../libled/libledApp.a -lpthread ../analyis/liblibcan_anayse.a ../libcrc/libcrc.a 
+/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -g   CMakeFiles/Linux_Gateway_master.dir/main.c.o  -o ../bin/Linux_Gateway_master ../libled/libledApp.a -lpthread ../analyis/liblibcan_anayse.a ../libcrc/libcrc.a ../libcan/libcan.a 
