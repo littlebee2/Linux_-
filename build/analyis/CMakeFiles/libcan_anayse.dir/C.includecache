@@ -43,6 +43,8 @@ crc.h
 /home/danneil/items/app/linux_gatework/analyis/crc.h
 can.h
 /home/danneil/items/app/linux_gatework/analyis/can.h
+linux/can.h
+-
 
 /home/danneil/items/app/linux_gatework/analyis/can_anayse.h
 stdint.h

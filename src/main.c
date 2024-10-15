@@ -12,6 +12,6 @@ int main(void)
 	{
 		can_handler();
 		//msleep(50);
-		 usleep(500);
+		 usleep(200000);
 	}
 }

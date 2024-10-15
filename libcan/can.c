@@ -30,6 +30,9 @@ int can0_tx(struct can_frame *frame)
     return 0;
 }
 
+/// @brief 
+/// @param frame 
+/// @return 
 int can0_rx(struct can_frame *frame)
 {
     if(can0_rx_buf.in == can0_rx_buf.out)
@@ -44,6 +47,7 @@ int can0_rx(struct can_frame *frame)
         {
             can0_rx_buf.out = 0;
         }
+        return 0;
     }
 }
 
